@@ -6,6 +6,7 @@ package tiny
 type st0 struct {
 	Temp   float64 `xml:"ia0,string"`  // onboard temp sensor
 	Vcc    float64 `xml:"ia1,string"`  // onboard power supply
+	Inp3   float64 `xml:"ia4,string"`  // PT1000
 	Inp6   float64 `xml:"ia7,string"`  // DS18B20
 	Inp7   float64 `xml:"ia8,string"`  // DS18B20
 	Inp8   float64 `xml:"ia9,string"`  // DS18B20
