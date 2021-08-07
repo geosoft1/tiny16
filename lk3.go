@@ -26,6 +26,8 @@ type ix struct {
 	Inp2    float64 `xml:"inp2,string"`    // INPA2
 	Inp3    float64 `xml:"inp3,string"`    // INPA3
 	Inp4    float64 `xml:"inp4,string"`    // INPA4
+	Inp5    float64 `xml:"inp5,string"`    // INPA5
+	Inp6    float64 `xml:"inp6,string"`    // INPA6
 	Inpp1   float64 `xml:"inpp1,string"`   //
 	Inpp2   float64 `xml:"inpp2,string"`   //
 	Inpp3   float64 `xml:"inpp3,string"`   //
